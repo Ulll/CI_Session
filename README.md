@@ -33,6 +33,6 @@ $config['cookie_path']		= '/';
 $config['cookie_secure']	= FALSE;
 $config['cookie_httponly'] 	= FALSE;
 
-$session = new CI_Session($config);
+$session = new Session($config);
 ```
 For more information visit <a href="http://www.codeigniter.com/userguide3/libraries/sessions.html">CodeIgniter user guide</a>.
