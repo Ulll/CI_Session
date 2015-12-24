@@ -1,0 +1,25 @@
+{
+  "name": "evolution/ci_session",
+  "description": "Use the Session library from CodeIgniter in your own project",
+  "keywords": [
+    "session",
+    "codeigniter"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/evolutionscript/codeigniter-database-standalone",
+  "authors": [
+    {
+      "name": "EvolutionScript",
+      "homepage": "http://www.evolutionscript.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Evolution\\CodeIgniterSession\\": "src/"
+    }
+  }
+}
